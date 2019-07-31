@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>TailWind CSS</title>
+  <link href="https://unpkg.com/tailwindcss@^1.0/dist/tailwind.min.css" rel="stylesheet">
+</head>
+
+<body>
+  <h2>TailWind CSS Basic</h2>
+  <section>
+    <div class="max-w-sm mx-auto flex p-6 bg-white rounded-lg shadow-xl">
+      <div class="flex-shrink-0">
+        <img class="h-12 w-12" src="./logo.svg" alt="ChitChat Logo">
+      </div>
+      <div class="ml-6 pt-1">
+        <h4 class="text-xl text-gray-900 leading-tight">ChitChat</h4>
+        <p class="text-base text-gray-600 leading-normal">You have a new message!</p>
+      </div>
+    </div>
+    <div class="max-w-sm mx-auto bg-white shadow-lg rounded-lg overflow-hidden mt-4">
+      <div class="sm:flex sm:items-center px-6 py-4">
+        <img class="block mx-auto sm:mx-0 sm:flex-shrink-0 h-16 sm:h-24 rounded-full" src="https://randomuser.me/api/portraits/women/17.jpg" alt="Woman's Face">
+        <div class="mt-4 sm:mt-0 sm:ml-4 text-center sm:text-left">
+          <p class="text-xl leading-tight">Erin Lindford</p>
+          <p class="text-sm leading-tight text-gray-600">Customer Support Specialst</p>
+          <div class="mt-4">
+            <button class="text-purple-500 hover:text-white hover:bg-purple-500 border border-purple-500 text-xs font-semibold rounded-full px-4 py-1 leading-normal">Message</button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="mt-5">
+      <form>
+        <input class="bg-gray-200 hover:bg-white hover:border-gray-300 focus:outline-none focus:bg-white focus:shadow-outline focus:border-gray-300 ...">
+        <button class="bg-teal-500 hover:bg-teal-600 focus:outline-none focus:shadow-outline ...">
+          Sign Up
+        </button>
+      </form>
+    </div>
+  </section>
+</body>
+
+</html>
