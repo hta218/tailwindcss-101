@@ -9,26 +9,38 @@
   <link rel="stylesheet" type="text/css" media="screen" href="./build/tailwind.css">
 </head>
 
-<body class="bg-gray-100 flex flex-row justify-center items-center h-screen">
-  <div class="px-8 py-12" style="max-width: 450px;">
-    <h1 class="text-4xl font-bold text-gray-900">
-      <i class="fas fa-crown mr-2"></i>
-      The <span class="text-indigo-500">King</span>
-    </h1>
-    <img class="mt-6 rounded-lg shadow-xl"
-      src="https://images2.minutemediacdn.com/image/upload/c_fill,w_912,h_516,f_auto,q_auto,g_auto/shape/cover/sport/fc-barcelona-v-real-valladolid-cf-la-liga-5c6b82fef44f88edaa000001.jpg"
-      alt="King Messi">
-    <h1 class="mt-6 text-2xl font-medium text-gray-900 leading-tight">
-      You can watch from any where.
-      <span class="text-indigo-500">Start loving him</span>
-    </h1>
-    <p class="mt-2 text-gray-600">Messi is an Argentinian football player, he's now playing for FC Barcelona club in
-      Catalunia, Spain. He has a powerful left leg with crazy skill and super fast speed</p>
-    <div class="mt-4">
-      <a href="https://facebook.com/hta218" target="_blank"
-        class="float-right inline-block bg-indigo-500 text-white px-5 py-3 rounded shadow-lg uppercase tracking-wider font-semibold text-sm">
-        Send him love
-      </a>
+<body class="bg-gray-300 flex flex-row justify-center items-center h-screen lg:block lg:h-auto">
+  <div class="flex bg-gray-100">
+    <div class="px-8 py-12 max-w-md sm:max-w-xl lg:max-w-full lg:w-1/2 lg:py-24 lg:px-12">
+      <div class="lg:max-w-lg lg:ml-auto">
+        <h1 class="text-4xl font-bold text-gray-900">
+          <i class="fas fa-crown mr-2"></i>
+          The <span class="text-indigo-500">King</span>
+        </h1>
+        <img class="mt-6 rounded-lg shadow-xl sm:mt-8 sm:h-64 sm:w-full sm:object-cover sm:object-cover lg:hidden"
+          src="https://images2.minutemediacdn.com/image/upload/c_fill,w_912,h_516,f_auto,q_auto,g_auto/shape/cover/sport/fc-barcelona-v-real-valladolid-cf-la-liga-5c6b82fef44f88edaa000001.jpg"
+          alt="King Messi">
+        <h1 class="mt-6 text-2xl font-medium text-gray-900 leading-tight sm:text-4xl lg:text-3xl sm:mt-8 xl:text-4xl">
+          You can watch from any where.
+          <br class="hidden lg:inline">
+          <span class="text-indigo-500">Start loving him</span>
+        </h1>
+        <p class="mt-2 text-gray-600 sm:text-xl sm:mt-4">Messi is an Argentinian football player, he's now playing for
+          FC
+          Barcelona club in
+          Catalunia, Spain. He has a powerful left leg with crazy skill and super fast speed</p>
+        <div class="mt-4 sm:mt-6">
+          <a href="https://facebook.com/hta218" target="_blank"
+            class="float-right inline-block bg-indigo-500 hover:bg-indigo-400 focus:outline-none focus:shadow-outline active:bg-indigo-600 text-white px-5 py-3 rounded shadow-lg uppercase tracking-wider font-semibold text-sm sm:text-base">
+            Send him love
+          </a>
+        </div>
+      </div>
+    </div>
+    <div class="hidden lg:block lg:w-1/2 lg:relative">
+      <img class="lg:absolute inset-0 h-full w-full lg:object-cover"
+        src="https://images2.minutemediacdn.com/image/upload/c_fill,w_912,h_516,f_auto,q_auto,g_auto/shape/cover/sport/fc-barcelona-v-real-valladolid-cf-la-liga-5c6b82fef44f88edaa000001.jpg"
+        alt="King Messi">
     </div>
   </div>
   <script src="https://kit.fontawesome.com/a6c5498ca6.js"></script>
