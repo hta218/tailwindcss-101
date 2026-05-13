@@ -19,8 +19,8 @@
   },
   "homepage": "https://github.com/hta218/tailwindcss-101#readme",
   "dependencies": {
-    "autoprefixer": "^9.6.1",
+    "autoprefixer": "^10.5.0",
     "postcss-cli": "^11.0.1",
-    "tailwindcss": "^1.0.5"
+    "tailwindcss": "^4.3.0"
   }
 }
